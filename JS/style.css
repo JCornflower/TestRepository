@@ -1,0 +1,26 @@
+body{
+	width: 200px; /* Ширина элемента в пикселах */
+    padding: 100px; /* Поля вокруг текста */
+    margin: auto;
+}
+.container{
+	display: flex;
+    flex-direction: column;
+}
+
+.tit{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+input[type=date]{
+	text-align:center;
+	padding-left: 45px;
+}
+
+#day, #value{
+	text-align: center;
+	margin-top: 20px;
+}
+
